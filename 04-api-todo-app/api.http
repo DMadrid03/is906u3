@@ -1,0 +1,44 @@
+###crear usuario
+POST http://localhost:3000/users
+Content-Type: application/json
+
+{
+  "name": "ing Juan",
+  "email": "jalvarenga@unah.edu.com"
+}
+###Consultar usuarios
+GET http://localhost:3000/users
+
+
+### get usuario por id
+GET http://localhost:3000/users/5
+
+
+### Consulta de todas las tareas
+GET http://localhost:3000/todos
+
+### Consulta de una tarea por id
+GET http://localhost:3000/todos/7c59b402-0e78-4301-b601-1644e910660b
+
+
+### Crear una nueva tarea
+POST http://localhost:3000/todos
+Content-Type: application/json
+
+{
+  "title": "Prueba, tarea de Daniel",
+  "description": "Tarea para realizar fuera clase",
+  "complete": false,
+  "userId":5
+}
+
+### Actualizacion una nueva tarea
+PUT http://localhost:3000/todos/da66100b-155c-4c73-8ab8-d58c320150f6
+Content-Type: application/json
+
+{
+  "description": "editando tarea Daniel"
+}
+
+### Eliminar una tarea
+DELETE http://localhost:3000/todos/4f8a2f5b-e04c-498d-aef1-b2e29dbfb249
