@@ -1,15 +1,8 @@
+<script lang="ts" setup>
+//TODO: CRear funcionalidad de todo
+</script>
 <template>
-  <div class="about">
-    <h1>This is an about page</h1>
-  </div>
+  <h1>crear una tarea</h1>
 </template>
 
-<style>
-@media (min-width: 1024px) {
-  .about {
-    min-height: 100vh;
-    display: flex;
-    align-items: center;
-  }
-}
-</style>
+<style scoped></style>
