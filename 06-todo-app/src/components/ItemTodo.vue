@@ -1,5 +1,5 @@
 <script setup lang="ts">
-import type Todo from '@/interfaces/todo.interface.ts'
+import type { Todo } from '@/interfaces/todo.interface'
 
 //TODO: crear la funcion para cambiar estado a una tarea
 

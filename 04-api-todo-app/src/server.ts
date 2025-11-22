@@ -14,6 +14,7 @@ const app = express();
 app.use(cors({
   origin: [
     'http://localhost:5173',
+    'http://localhost:5174',
     'http://midominio.app',
     'https://midominio.app.prueba'
   ],//dominio del cual se aceptan peticiones (el frontend )
